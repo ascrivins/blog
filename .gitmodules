@@ -1,0 +1,4 @@
+[submodule "ascrivinsblog/public"]
+	path = ascrivinsblog/public
+	url = https://github.com/ascrivins/ascrivins.github.io.git
+	branch = main

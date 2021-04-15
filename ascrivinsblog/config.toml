@@ -1,0 +1,4 @@
+baseURL = "https://ascrivins.github.io/"
+languageCode = "en-us"
+title = "ascrivins blog"
+theme="PaperMod"
