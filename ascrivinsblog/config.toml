@@ -1,4 +1,67 @@
 baseURL = "https://ascrivins.github.io/"
-languageCode = "en-us"
-title = "ascrivins blog"
+languageCode = "en-gb"
+title = "ascrivins:blog"
 theme="PaperMod"
+enableEmoji=true
+ShowShareButtons=true
+
+[params]
+  jack_space=" :uk: "
+  jack=":uk:"
+  date_emo=" :date: "
+  book_emo=" :book: "
+
+[params.profileMode]
+enabled = true
+title = "ascrivins:blog"
+subtitle = "find / -type f -name ascrivins.blog 2>/dev/null"
+imageUrl = "sonof.png"
+imageTitle = "ascrivins"
+imageWidth = 300
+imageHeight = 320
+
+[[params.profileMode.buttons]]
+name = "Posts"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "Archive"
+url = "/archives"
+
+[[params.profileMode.buttons]]
+name = "Search"
+url = "/search"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ascrivins/"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/andrewscrivins"
+
+[[params.socialIcons]]
+name = "other"
+url = "https://tryhackme.com/p/helpmepls"
+
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "archives"
+name = "Archive"
+url = "/archives/"
+weight = 20
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 30
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]

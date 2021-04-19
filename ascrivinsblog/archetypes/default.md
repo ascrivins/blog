@@ -1,6 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+author: ascrivins
+description: "Description goes here"
+ShowToc: true
+ShowBreadCrumbs: true
+ShowReadingTime: true
+ShowPostNavLinks: true
+ShowShareButtons: true
 ---
 
