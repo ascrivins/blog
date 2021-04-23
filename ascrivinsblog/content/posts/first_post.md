@@ -5,4 +5,4 @@ params:
     ShowBreadCrumbs: true
 ---
 
-Blog created today to document some things that happen in my realm of cybersecurity. 
+Blog created today to document some things that happen in my realm of Cybersecurity. 
