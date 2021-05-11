@@ -21,8 +21,8 @@ imageWidth = 300
 imageHeight = 320
 
 [[params.profileMode.buttons]]
-name = "Posts"
-url = "/posts"
+name = "TryHackMe"
+url = "/posts/tryhackme"
 
 [[params.profileMode.buttons]]
 name = "Archive"
@@ -47,8 +47,8 @@ url = "https://tryhackme.com/p/helpmepls"
 
 [[menu.main]]
 identifier = "posts"
-name = "Posts"
-url = "/posts/"
+name = "TryHackMe"
+url = "/posts/tryhackme"
 weight = 10
 
 [[menu.main]]
